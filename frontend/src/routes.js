@@ -18,7 +18,7 @@ export default function Routes() {
         <Route path="/register" component={Register}></Route>
         <Route path="/profile" component={Profile}></Route>
         <Route path="/incidents/new" component={NewIncident}></Route>
-      </Switch>
-    </BrowserRouter>
+       </Switch>
+     </BrowserRouter>
   );
 };

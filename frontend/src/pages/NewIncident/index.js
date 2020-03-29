@@ -15,7 +15,7 @@ export default function NewIncident() {
 
   async function handleNewIncident(event) {
     event.preventDefault();
-    
+
     const data =  { title, description, value };
 
     try {
@@ -61,7 +61,7 @@ export default function NewIncident() {
             onChange={e => setDescription(e.target.value)}
           />
 
-          <input 
+          <input
             placeholder="Valor em reais"
             value={value}
             onChange={e => setValue(e.target.value)}
